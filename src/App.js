@@ -2,11 +2,11 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Container } from "semantic-ui-react";
 import Navbar from "./components/navbar/Navbar";
-import Home from "./screens/Home";
-import About from "./screens/About";
-import Services from "./screens/Services";
-import Blog from "./screens/Blog";
-import Contact from "./screens/Contact";
+import Home from "./screens/home/Home";
+import About from "./screens/about/About";
+import Services from "./screens/services/Services";
+import Blog from "./screens/blog/Blog";
+import Contact from "./screens/contact/Contact";
 function App() {
   return (
     <Container>
